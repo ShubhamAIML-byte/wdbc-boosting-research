@@ -5,6 +5,12 @@
 
 ---
 
+## 🌐 Live Public Deployment
+- **Production URL**: [https://boosting-wdbc.vercel.app](https://boosting-wdbc.vercel.app)
+- **GitHub Repository**: [https://github.com/ShubhamAIML-byte/wdbc-boosting-research](https://github.com/ShubhamAIML-byte/wdbc-boosting-research)
+- **Colab Research Notebook**: [Google Colab Drive Link](https://colab.research.google.com/drive/1B4RYPAVQzh70srBgxTj9A6OunOlJCOjh?usp=sharing)
+
+
 ## 🌟 Executive Summary
 
 This web application operationalizes a state-of-the-art **Reliability-Aware Tri-Boosting Machine Learning Ensemble** for breast cancer fine needle aspirate (FNA) cytopathology triage. 
