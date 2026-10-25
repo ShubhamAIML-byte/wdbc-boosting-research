@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Vercel & Cache
+.vercel/
+.system_generated/
+notebook_dump.txt
+temp_cat.json
+cat_model.json
+xgb_model.json
+
+# Environment
+.env
+.env.local
+*.log

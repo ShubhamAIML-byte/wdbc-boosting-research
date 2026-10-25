@@ -1,0 +1,1148 @@
+{
+  "dataset": {
+    "name": "Wisconsin Diagnostic Breast Cancer (WDBC)",
+    "source": "UCI ML Repository / Scikit-Learn",
+    "total_samples": 569,
+    "train_samples": 455,
+    "test_samples": 114,
+    "num_features": 30,
+    "malignant_count": 212,
+    "benign_count": 357
+  },
+  "feature_names": [
+    "mean radius",
+    "mean texture",
+    "mean perimeter",
+    "mean area",
+    "mean smoothness",
+    "mean compactness",
+    "mean concavity",
+    "mean concave points",
+    "mean symmetry",
+    "mean fractal dimension",
+    "radius error",
+    "texture error",
+    "perimeter error",
+    "area error",
+    "smoothness error",
+    "compactness error",
+    "concavity error",
+    "concave points error",
+    "symmetry error",
+    "fractal dimension error",
+    "worst radius",
+    "worst texture",
+    "worst perimeter",
+    "worst area",
+    "worst smoothness",
+    "worst compactness",
+    "worst concavity",
+    "worst concave points",
+    "worst symmetry",
+    "worst fractal dimension"
+  ],
+  "feature_metadata": {
+    "mean radius": {
+      "index": 0,
+      "name": "mean radius",
+      "min": 6.981,
+      "max": 28.11,
+      "mean": 14.166076923076936,
+      "scale": 3.5751458429661915,
+      "benign_mean": 12.146523809523808,
+      "malignant_mean": 17.462830188679245
+    },
+    "mean texture": {
+      "index": 1,
+      "name": "mean texture",
+      "min": 9.71,
+      "max": 39.28,
+      "mean": 19.417692307692302,
+      "scale": 4.285935362007163,
+      "benign_mean": 17.914761904761903,
+      "malignant_mean": 21.60490566037736
+    },
+    "mean perimeter": {
+      "index": 2,
+      "name": "mean perimeter",
+      "min": 43.79,
+      "max": 188.5,
+      "mean": 92.21586813186822,
+      "scale": 24.689941486766898,
+      "benign_mean": 78.075406162465,
+      "malignant_mean": 115.36537735849056
+    },
+    "mean area": {
+      "index": 3,
+      "name": "mean area",
+      "min": 143.5,
+      "max": 2501.0,
+      "mean": 659.5782417582416,
+      "scale": 360.0224032546589,
+      "benign_mean": 462.7901960784313,
+      "malignant_mean": 978.3764150943397
+    },
+    "mean smoothness": {
+      "index": 4,
+      "name": "mean smoothness",
+      "min": 0.05263,
+      "max": 0.1634,
+      "mean": 0.09599294505494503,
+      "scale": 0.014293957445666325,
+      "benign_mean": 0.09247764705882354,
+      "malignant_mean": 0.10289849056603775
+    },
+    "mean compactness": {
+      "index": 5,
+      "name": "mean compactness",
+      "min": 0.01938,
+      "max": 0.3454,
+      "mean": 0.1038348571428572,
+      "scale": 0.05385095918959041,
+      "benign_mean": 0.0800846218487395,
+      "malignant_mean": 0.14518778301886792
+    },
+    "mean concavity": {
+      "index": 6,
+      "name": "mean concavity",
+      "min": 0.0,
+      "max": 0.4268,
+      "mean": 0.08918428285714293,
+      "scale": 0.0816081745789685,
+      "benign_mean": 0.04605762100840336,
+      "malignant_mean": 0.16077471698113208
+    },
+    "mean concave points": {
+      "index": 7,
+      "name": "mean concave points",
+      "min": 0.0,
+      "max": 0.2012,
+      "mean": 0.04901459780219776,
+      "scale": 0.03964233748792278,
+      "benign_mean": 0.025717406162464984,
+      "malignant_mean": 0.08799
+    },
+    "mean symmetry": {
+      "index": 8,
+      "name": "mean symmetry",
+      "min": 0.106,
+      "max": 0.304,
+      "mean": 0.18149714285714283,
+      "scale": 0.027615852522021714,
+      "benign_mean": 0.1741859943977591,
+      "malignant_mean": 0.1929089622641509
+    },
+    "mean fractal dimension": {
+      "index": 9,
+      "name": "mean fractal dimension",
+      "min": 0.04996,
+      "max": 0.09744,
+      "mean": 0.0627148131868132,
+      "scale": 0.006962934577614085,
+      "benign_mean": 0.0628673949579832,
+      "malignant_mean": 0.06268009433962264
+    },
+    "radius error": {
+      "index": 10,
+      "name": "radius error",
+      "min": 0.1115,
+      "max": 2.873,
+      "mean": 0.4111872527472527,
+      "scale": 0.2898637344353451,
+      "benign_mean": 0.28408235294117645,
+      "malignant_mean": 0.6090825471698113
+    },
+    "texture error": {
+      "index": 11,
+      "name": "texture error",
+      "min": 0.3602,
+      "max": 4.885,
+      "mean": 1.2178819780219772,
+      "scale": 0.5517048705229316,
+      "benign_mean": 1.2203801120448179,
+      "malignant_mean": 1.2109146226415093
+    },
+    "perimeter error": {
+      "index": 12,
+      "name": "perimeter error",
+      "min": 0.757,
+      "max": 21.98,
+      "mean": 2.9115687912087926,
+      "scale": 2.1207845642782672,
+      "benign_mean": 2.0003212885154062,
+      "malignant_mean": 4.3239292452830185
+    },
+    "area error": {
+      "index": 13,
+      "name": "area error",
+      "min": 6.802,
+      "max": 542.2,
+      "mean": 41.27910329670334,
+      "scale": 48.33097570059748,
+      "benign_mean": 21.135148459383753,
+      "malignant_mean": 72.67240566037735
+    },
+    "smoothness error": {
+      "index": 14,
+      "name": "smoothness error",
+      "min": 0.001713,
+      "max": 0.03113,
+      "mean": 0.006895252747252745,
+      "scale": 0.002851470755239647,
+      "benign_mean": 0.007195901960784313,
+      "malignant_mean": 0.006780094339622642
+    },
+    "compactness error": {
+      "index": 15,
+      "name": "compactness error",
+      "min": 0.002252,
+      "max": 0.1354,
+      "mean": 0.02532343296703297,
+      "scale": 0.017604664703992863,
+      "benign_mean": 0.02143824649859944,
+      "malignant_mean": 0.03228116509433963
+    },
+    "concavity error": {
+      "index": 16,
+      "name": "concavity error",
+      "min": 0.0,
+      "max": 0.396,
+      "mean": 0.03201755076923077,
+      "scale": 0.03169439851379008,
+      "benign_mean": 0.02599673557422969,
+      "malignant_mean": 0.041824009433962264
+    },
+    "concave points error": {
+      "index": 17,
+      "name": "concave points error",
+      "min": 0.0,
+      "max": 0.05279,
+      "mean": 0.011690617582417585,
+      "scale": 0.006282350723940197,
+      "benign_mean": 0.009857652661064425,
+      "malignant_mean": 0.015060471698113208
+    },
+    "symmetry error": {
+      "index": 18,
+      "name": "symmetry error",
+      "min": 0.007882,
+      "max": 0.07895,
+      "mean": 0.020426698901098918,
+      "scale": 0.008301452158911845,
+      "benign_mean": 0.020583806722689075,
+      "malignant_mean": 0.020472400943396227
+    },
+    "fractal dimension error": {
+      "index": 19,
+      "name": "fractal dimension error",
+      "min": 0.0008948,
+      "max": 0.02984,
+      "mean": 0.003766038021978021,
+      "scale": 0.0026291028502456325,
+      "benign_mean": 0.0036360512605042015,
+      "malignant_mean": 0.0040624056603773585
+    },
+    "worst radius": {
+      "index": 20,
+      "name": "worst radius",
+      "min": 7.93,
+      "max": 36.04,
+      "mean": 16.351514285714288,
+      "scale": 4.895648476314662,
+      "benign_mean": 13.37980112044818,
+      "malignant_mean": 21.134811320754718
+    },
+    "worst texture": {
+      "index": 21,
+      "name": "worst texture",
+      "min": 12.02,
+      "max": 49.54,
+      "mean": 25.90487912087913,
+      "scale": 6.072847254508962,
+      "benign_mean": 23.51507002801121,
+      "malignant_mean": 29.318207547169813
+    },
+    "worst perimeter": {
+      "index": 22,
+      "name": "worst perimeter",
+      "min": 50.41,
+      "max": 251.2,
+      "mean": 107.86048351648357,
+      "scale": 34.13844252141841,
+      "benign_mean": 87.00593837535013,
+      "malignant_mean": 141.37033018867925
+    },
+    "worst area": {
+      "index": 23,
+      "name": "worst area",
+      "min": 185.2,
+      "max": 4254.0,
+      "mean": 890.5692307692316,
+      "scale": 581.7058880535003,
+      "benign_mean": 558.8994397759103,
+      "malignant_mean": 1422.2863207547173
+    },
+    "worst smoothness": {
+      "index": 24,
+      "name": "worst smoothness",
+      "min": 0.07117,
+      "max": 0.2226,
+      "mean": 0.1320830329670329,
+      "scale": 0.023455373508121904,
+      "benign_mean": 0.12495949579831933,
+      "malignant_mean": 0.1448452358490566
+    },
+    "worst compactness": {
+      "index": 25,
+      "name": "worst compactness",
+      "min": 0.02729,
+      "max": 1.058,
+      "mean": 0.25552947252747266,
+      "scale": 0.15822586358561633,
+      "benign_mean": 0.18267254901960786,
+      "malignant_mean": 0.37482410377358494
+    },
+    "worst concavity": {
+      "index": 26,
+      "name": "worst concavity",
+      "min": 0.0,
+      "max": 1.252,
+      "mean": 0.27516636703296693,
+      "scale": 0.21183314368274303,
+      "benign_mean": 0.16623772268907563,
+      "malignant_mean": 0.4506055660377358
+    },
+    "worst concave points": {
+      "index": 27,
+      "name": "worst concave points",
+      "min": 0.0,
+      "max": 0.291,
+      "mean": 0.1154907054945055,
+      "scale": 0.06677035672401137,
+      "benign_mean": 0.07444434453781512,
+      "malignant_mean": 0.1822373113207547
+    },
+    "worst symmetry": {
+      "index": 28,
+      "name": "worst symmetry",
+      "min": 0.1565,
+      "max": 0.6638,
+      "mean": 0.2913637362637367,
+      "scale": 0.06297407475727484,
+      "benign_mean": 0.27024593837535016,
+      "malignant_mean": 0.32346792452830186
+    },
+    "worst fractal dimension": {
+      "index": 29,
+      "name": "worst fractal dimension",
+      "min": 0.05504,
+      "max": 0.2075,
+      "mean": 0.08412369230769234,
+      "scale": 0.01814867589980917,
+      "benign_mean": 0.07944207282913165,
+      "malignant_mean": 0.09152995283018868
+    }
+  },
+  "ensemble_weights": {
+    "XGBoost": 0.19350828561226663,
+    "AdaBoost": 0.024537249540400805,
+    "CatBoost": 0.7819544648473326
+  },
+  "surrogate": {
+    "coefficients": [
+      0.3611500684491323,
+      0.4822194032961794,
+      0.3531598662669121,
+      0.4399502819885034,
+      0.35062155829171665,
+      -0.43954614808744313,
+      0.7822983533225193,
+      0.9528128318119827,
+      -0.1639908683770676,
+      -0.08086512047777294,
+      1.233325166380818,
+      -0.40761125826206385,
+      0.7482947115713589,
+      0.9090290582882169,
+      0.24799098171630335,
+      -0.9069248024192621,
+      -0.09234069448239432,
+      0.482089078592353,
+      -0.33065773405654164,
+      -0.5938763200364319,
+      0.8969678339058801,
+      1.4340931710338405,
+      0.7231114802873417,
+      0.9004766112545065,
+      0.420206754657004,
+      -0.17348750804499355,
+      0.9114058021854974,
+      0.7039988067031883,
+      1.0612636621709464,
+      0.05486987894732428
+    ],
+    "intercept": -0.24300532690559
+  },
+  "clean_metrics": [
+    {
+      "model": "XGBoost",
+      "accuracy": 0.9649122807017544,
+      "precision": 1.0,
+      "sensitivity": 0.9047619047619048,
+      "specificity": 1.0,
+      "f1": 0.95,
+      "roc_auc": 0.9947089947089947,
+      "confusion_matrix": [
+        [
+          72,
+          0
+        ],
+        [
+          4,
+          38
+        ]
+      ]
+    },
+    {
+      "model": "AdaBoost",
+      "accuracy": 0.9736842105263158,
+      "precision": 1.0,
+      "sensitivity": 0.9285714285714286,
+      "specificity": 1.0,
+      "f1": 0.9629629629629629,
+      "roc_auc": 0.9877645502645502,
+      "confusion_matrix": [
+        [
+          72,
+          0
+        ],
+        [
+          3,
+          39
+        ]
+      ]
+    },
+    {
+      "model": "CatBoost",
+      "accuracy": 0.9649122807017544,
+      "precision": 1.0,
+      "sensitivity": 0.9047619047619048,
+      "specificity": 1.0,
+      "f1": 0.95,
+      "roc_auc": 0.9993386243386243,
+      "confusion_matrix": [
+        [
+          72,
+          0
+        ],
+        [
+          4,
+          38
+        ]
+      ]
+    },
+    {
+      "model": "Equal-Weight Voting",
+      "accuracy": 0.9649122807017544,
+      "precision": 1.0,
+      "sensitivity": 0.9047619047619048,
+      "specificity": 1.0,
+      "f1": 0.95,
+      "roc_auc": 0.9937169312169313,
+      "confusion_matrix": [
+        [
+          72,
+          0
+        ],
+        [
+          4,
+          38
+        ]
+      ]
+    },
+    {
+      "model": "Optimized Ensemble",
+      "accuracy": 0.9649122807017544,
+      "precision": 1.0,
+      "sensitivity": 0.9047619047619048,
+      "specificity": 1.0,
+      "f1": 0.95,
+      "roc_auc": 0.9983465608465609,
+      "confusion_matrix": [
+        [
+          72,
+          0
+        ],
+        [
+          4,
+          38
+        ]
+      ]
+    }
+  ],
+  "robustness_test": [
+    {
+      "model": "Epsilon 0.00",
+      "accuracy": 0.9649122807017544,
+      "precision": 1.0,
+      "sensitivity": 0.9047619047619048,
+      "specificity": 1.0,
+      "f1": 0.95,
+      "roc_auc": 0.9983465608465609,
+      "confusion_matrix": [
+        [
+          72,
+          0
+        ],
+        [
+          4,
+          38
+        ]
+      ],
+      "epsilon": 0.0,
+      "accuracy_drop_pp": 0.0,
+      "auc_drop_pp": 0.0
+    },
+    {
+      "model": "Epsilon 0.05",
+      "accuracy": 0.956140350877193,
+      "precision": 1.0,
+      "sensitivity": 0.8809523809523809,
+      "specificity": 1.0,
+      "f1": 0.9367088607594937,
+      "roc_auc": 0.9933862433862434,
+      "confusion_matrix": [
+        [
+          72,
+          0
+        ],
+        [
+          5,
+          37
+        ]
+      ],
+      "epsilon": 0.05,
+      "accuracy_drop_pp": 0.88,
+      "auc_drop_pp": 0.5
+    },
+    {
+      "model": "Epsilon 0.10",
+      "accuracy": 0.9385964912280702,
+      "precision": 0.972972972972973,
+      "sensitivity": 0.8571428571428571,
+      "specificity": 0.9861111111111112,
+      "f1": 0.9113924050632911,
+      "roc_auc": 0.9801587301587302,
+      "confusion_matrix": [
+        [
+          71,
+          1
+        ],
+        [
+          6,
+          36
+        ]
+      ],
+      "epsilon": 0.1,
+      "accuracy_drop_pp": 2.63,
+      "auc_drop_pp": 1.82
+    },
+    {
+      "model": "Epsilon 0.20",
+      "accuracy": 0.868421052631579,
+      "precision": 0.8648648648648649,
+      "sensitivity": 0.7619047619047619,
+      "specificity": 0.9305555555555556,
+      "f1": 0.810126582278481,
+      "roc_auc": 0.9289021164021164,
+      "confusion_matrix": [
+        [
+          67,
+          5
+        ],
+        [
+          10,
+          32
+        ]
+      ],
+      "epsilon": 0.2,
+      "accuracy_drop_pp": 9.65,
+      "auc_drop_pp": 6.94
+    },
+    {
+      "model": "Epsilon 0.30",
+      "accuracy": 0.7982456140350878,
+      "precision": 0.7435897435897436,
+      "sensitivity": 0.6904761904761905,
+      "specificity": 0.8611111111111112,
+      "f1": 0.7160493827160493,
+      "roc_auc": 0.8406084656084656,
+      "confusion_matrix": [
+        [
+          62,
+          10
+        ],
+        [
+          13,
+          29
+        ]
+      ],
+      "epsilon": 0.3,
+      "accuracy_drop_pp": 16.67,
+      "auc_drop_pp": 15.77
+    }
+  ],
+  "shap_stability": [
+    {
+      "model": "XGBoost",
+      "rank_correlation": 0.9986651835372636,
+      "top10_overlap": 0.9
+    },
+    {
+      "model": "AdaBoost",
+      "rank_correlation": 0.9959919839679358,
+      "top10_overlap": 1.0
+    },
+    {
+      "model": "CatBoost",
+      "rank_correlation": 0.9991101223581758,
+      "top10_overlap": 1.0
+    }
+  ],
+  "shap_features": [
+    {
+      "feature": "worst texture",
+      "importance": 0.8304138533186458,
+      "instability": 0.08556241395045187,
+      "xgboost_importance": 0.7628017663955688,
+      "adaboost_importance": 0.02900219298245614,
+      "catboost_importance": 0.87229344911813
+    },
+    {
+      "feature": "worst concave points",
+      "importance": 0.7489811751235396,
+      "instability": 0.05097872216080356,
+      "xgboost_importance": 0.8321223258972168,
+      "adaboost_importance": 0.06396381578947367,
+      "catboost_importance": 0.7499018685498271
+    },
+    {
+      "feature": "mean concave points",
+      "importance": 0.6770018050132942,
+      "instability": 0.08354743766945023,
+      "xgboost_importance": 0.8651529550552368,
+      "adaboost_importance": 0.0702905701754386,
+      "catboost_importance": 0.6494787426357255
+    },
+    {
+      "feature": "worst area",
+      "importance": 0.6222795481103495,
+      "instability": 0.09340185882470993,
+      "xgboost_importance": 0.48627573251724243,
+      "adaboost_importance": 0.03819078947368422,
+      "catboost_importance": 0.6742644125033116
+    },
+    {
+      "feature": "area error",
+      "importance": 0.5854794267118708,
+      "instability": 0.09901548776793297,
+      "xgboost_importance": 0.7490260004997253,
+      "adaboost_importance": 0.08728618421052632,
+      "catboost_importance": 0.5606399685668968
+    },
+    {
+      "feature": "worst perimeter",
+      "importance": 0.5296820698685563,
+      "instability": 0.0439771865664588,
+      "xgboost_importance": 0.6882422566413879,
+      "adaboost_importance": 0.05219846491228072,
+      "catboost_importance": 0.5054267245829299
+    },
+    {
+      "feature": "worst concavity",
+      "importance": 0.4620174465746641,
+      "instability": 0.06340770889640694,
+      "xgboost_importance": 0.5924004912376404,
+      "adaboost_importance": 0.030274122807017544,
+      "catboost_importance": 0.44329972523546957
+    },
+    {
+      "feature": "worst radius",
+      "importance": 0.44116469257701507,
+      "instability": 0.06422254820792074,
+      "xgboost_importance": 0.5332930088043213,
+      "adaboost_importance": 0.001408991228070175,
+      "catboost_importance": 0.4321651952085184
+    },
+    {
+      "feature": "mean texture",
+      "importance": 0.36367980370628816,
+      "instability": 0.04078195197404914,
+      "xgboost_importance": 0.37745335698127747,
+      "adaboost_importance": 0.04521381578947371,
+      "catboost_importance": 0.37026456402940755
+    },
+    {
+      "feature": "mean area",
+      "importance": 0.236710566151662,
+      "instability": 0.04429843495343057,
+      "xgboost_importance": 0.11794943362474442,
+      "adaboost_importance": 0.020520833333333332,
+      "catboost_importance": 0.2728839826950581
+    },
+    {
+      "feature": "mean concavity",
+      "importance": 0.22390199364390398,
+      "instability": 0.03063938292156204,
+      "xgboost_importance": 0.08625634759664536,
+      "adaboost_importance": 0.0225219298245614,
+      "catboost_importance": 0.26428399449757256
+    },
+    {
+      "feature": "worst smoothness",
+      "importance": 0.19737008597942693,
+      "instability": 0.03333375278483206,
+      "xgboost_importance": 0.14570054411888123,
+      "adaboost_importance": 0.016990131578947368,
+      "catboost_importance": 0.2158168281689895
+    },
+    {
+      "feature": "radius error",
+      "importance": 0.18161209309164383,
+      "instability": 0.025481101643766886,
+      "xgboost_importance": 0.07688863575458527,
+      "adaboost_importance": 0.0,
+      "catboost_importance": 0.21322661676503218
+    },
+    {
+      "feature": "mean smoothness",
+      "importance": 0.17546677812433797,
+      "instability": 0.022116968450076834,
+      "xgboost_importance": 0.2667616903781891,
+      "adaboost_importance": 0.01343201754385966,
+      "catboost_importance": 0.15795880903376486
+    },
+    {
+      "feature": "mean radius",
+      "importance": 0.15776749404242854,
+      "instability": 0.0250084251398564,
+      "xgboost_importance": 0.022060895338654518,
+      "adaboost_importance": 0.0,
+      "catboost_importance": 0.1963011081934837
+    },
+    {
+      "feature": "worst symmetry",
+      "importance": 0.1522826485849398,
+      "instability": 0.027734244853227286,
+      "xgboost_importance": 0.22814589738845825,
+      "adaboost_importance": 0.01020833333333333,
+      "catboost_importance": 0.13796716757733285
+    },
+    {
+      "feature": "compactness error",
+      "importance": 0.11499613372166503,
+      "instability": 0.031120359137631108,
+      "xgboost_importance": 0.2608994245529175,
+      "adaboost_importance": 0.011979166666666662,
+      "catboost_importance": 0.08212242584989198
+    },
+    {
+      "feature": "worst compactness",
+      "importance": 0.08272271369173606,
+      "instability": 0.014327325567000258,
+      "xgboost_importance": 0.01966487057507038,
+      "adaboost_importance": 0.0010964912280701754,
+      "catboost_importance": 0.1008888585814105
+    },
+    {
+      "feature": "mean compactness",
+      "importance": 0.07393473711815574,
+      "instability": 0.022049048181740333,
+      "xgboost_importance": 0.14555056393146515,
+      "adaboost_importance": 0.010093201754385968,
+      "catboost_importance": 0.05821545839073627
+    },
+    {
+      "feature": "perimeter error",
+      "importance": 0.0735729672704199,
+      "instability": 0.015187946540401311,
+      "xgboost_importance": 0.021199753507971764,
+      "adaboost_importance": 0.0038815789473684195,
+      "catboost_importance": 0.08872050632256705
+    },
+    {
+      "feature": "mean perimeter",
+      "importance": 0.06300460037249257,
+      "instability": 0.01579581799077416,
+      "xgboost_importance": 0.005668103229254484,
+      "adaboost_importance": 0.0,
+      "catboost_importance": 0.07917056327060291
+    },
+    {
+      "feature": "fractal dimension error",
+      "importance": 0.04485383387759733,
+      "instability": 0.015478203891967154,
+      "xgboost_importance": 0.052120234817266464,
+      "adaboost_importance": 0.0050548245614035064,
+      "catboost_importance": 0.04430450449249252
+    },
+    {
+      "feature": "smoothness error",
+      "importance": 0.03935290731265833,
+      "instability": 0.010721864169055179,
+      "xgboost_importance": 0.015196274034678936,
+      "adaboost_importance": 0.0006195175438596495,
+      "catboost_importance": 0.04654631792025278
+    },
+    {
+      "feature": "mean fractal dimension",
+      "importance": 0.034501133369822815,
+      "instability": 0.010176148863684537,
+      "xgboost_importance": 0.059271641075611115,
+      "adaboost_importance": 0.005729166666666667,
+      "catboost_importance": 0.029274085329465266
+    },
+    {
+      "feature": "mean symmetry",
+      "importance": 0.03136572804420608,
+      "instability": 0.007586395708168429,
+      "xgboost_importance": 0.014459455385804176,
+      "adaboost_importance": 0.0012280701754385963,
+      "catboost_importance": 0.036495181548500816
+    },
+    {
+      "feature": "worst fractal dimension",
+      "importance": 0.02804252173952659,
+      "instability": 0.009710777275536084,
+      "xgboost_importance": 0.018973277881741524,
+      "adaboost_importance": 0.0004714912280701755,
+      "catboost_importance": 0.031152026443153926
+    },
+    {
+      "feature": "texture error",
+      "importance": 0.027643112007194274,
+      "instability": 0.009385238974733364,
+      "xgboost_importance": 0.00959600880742073,
+      "adaboost_importance": 0.002171052631578947,
+      "catboost_importance": 0.03290848034097194
+    },
+    {
+      "feature": "concave points error",
+      "importance": 0.025288922024136642,
+      "instability": 0.00801150186250746,
+      "xgboost_importance": 0.045337166637182236,
+      "adaboost_importance": 0.003503289473684209,
+      "catboost_importance": 0.02101125357579171
+    },
+    {
+      "feature": "symmetry error",
+      "importance": 0.023585861755270002,
+      "instability": 0.0065541883387461464,
+      "xgboost_importance": 0.05450766161084175,
+      "adaboost_importance": 0.0034374999999999965,
+      "catboost_importance": 0.016565965655629847
+    },
+    {
+      "feature": "concavity error",
+      "importance": 0.019088251411911398,
+      "instability": 0.0056738310134574425,
+      "xgboost_importance": 0.024389415979385376,
+      "adaboost_importance": 0.0007675438596491228,
+      "catboost_importance": 0.018351278199096085
+    }
+  ],
+  "shap_retrained_robustness": [
+    {
+      "model": "Epsilon 0.00",
+      "accuracy": 0.9824561403508771,
+      "precision": 1.0,
+      "sensitivity": 0.9523809523809523,
+      "specificity": 1.0,
+      "f1": 0.975609756097561,
+      "roc_auc": 0.9966931216931217,
+      "confusion_matrix": [
+        [
+          72,
+          0
+        ],
+        [
+          2,
+          40
+        ]
+      ],
+      "epsilon": 0.0
+    },
+    {
+      "model": "Epsilon 0.05",
+      "accuracy": 0.956140350877193,
+      "precision": 0.9743589743589743,
+      "sensitivity": 0.9047619047619048,
+      "specificity": 0.9861111111111112,
+      "f1": 0.9382716049382716,
+      "roc_auc": 0.990410052910053,
+      "confusion_matrix": [
+        [
+          71,
+          1
+        ],
+        [
+          4,
+          38
+        ]
+      ],
+      "epsilon": 0.05
+    },
+    {
+      "model": "Epsilon 0.10",
+      "accuracy": 0.9298245614035088,
+      "precision": 0.9473684210526315,
+      "sensitivity": 0.8571428571428571,
+      "specificity": 0.9722222222222222,
+      "f1": 0.9,
+      "roc_auc": 0.9811507936507937,
+      "confusion_matrix": [
+        [
+          70,
+          2
+        ],
+        [
+          6,
+          36
+        ]
+      ],
+      "epsilon": 0.1
+    },
+    {
+      "model": "Epsilon 0.20",
+      "accuracy": 0.8859649122807017,
+      "precision": 0.8536585365853658,
+      "sensitivity": 0.8333333333333334,
+      "specificity": 0.9166666666666666,
+      "f1": 0.8433734939759037,
+      "roc_auc": 0.9368386243386243,
+      "confusion_matrix": [
+        [
+          66,
+          6
+        ],
+        [
+          7,
+          35
+        ]
+      ],
+      "epsilon": 0.2
+    },
+    {
+      "model": "Epsilon 0.30",
+      "accuracy": 0.8421052631578947,
+      "precision": 0.8,
+      "sensitivity": 0.7619047619047619,
+      "specificity": 0.8888888888888888,
+      "f1": 0.7804878048780488,
+      "roc_auc": 0.8508597883597884,
+      "confusion_matrix": [
+        [
+          64,
+          8
+        ],
+        [
+          10,
+          32
+        ]
+      ],
+      "epsilon": 0.3
+    }
+  ],
+  "masked_unstable_features": [
+    "area error",
+    "worst area",
+    "worst texture",
+    "mean concave points",
+    "worst radius"
+  ],
+  "patient_cases": [
+    {
+      "id": "WDBC-PT-104",
+      "title": "Case 1: Benign Fibroadenoma",
+      "description": "Typical benign FNA cytology with uniform small nuclei, smooth boundaries, low texture and small nuclear area.",
+      "true_diagnosis": "Benign",
+      "true_label": 0,
+      "features": {
+        "mean radius": 11.41,
+        "mean texture": 10.82,
+        "mean perimeter": 73.34,
+        "mean area": 403.3,
+        "mean smoothness": 0.09373,
+        "mean compactness": 0.06685,
+        "mean concavity": 0.03512,
+        "mean concave points": 0.02623,
+        "mean symmetry": 0.1667,
+        "mean fractal dimension": 0.06113,
+        "radius error": 0.1408,
+        "texture error": 0.4607,
+        "perimeter error": 1.103,
+        "area error": 10.5,
+        "smoothness error": 0.00604,
+        "compactness error": 0.01529,
+        "concavity error": 0.01514,
+        "concave points error": 0.00646,
+        "symmetry error": 0.01344,
+        "fractal dimension error": 0.002206,
+        "worst radius": 12.82,
+        "worst texture": 15.97,
+        "worst perimeter": 83.74,
+        "worst area": 510.5,
+        "worst smoothness": 0.1548,
+        "worst compactness": 0.239,
+        "worst concavity": 0.2102,
+        "worst concave points": 0.08958,
+        "worst symmetry": 0.3016,
+        "worst fractal dimension": 0.08523
+      }
+    },
+    {
+      "id": "WDBC-PT-249",
+      "title": "Case 2: Invasive Ductal Carcinoma (Malignant)",
+      "description": "High-grade malignant lesion presenting marked nuclear pleomorphism, high concavity, irregular boundaries and enlarged nuclear area.",
+      "true_diagnosis": "Malignant",
+      "true_label": 1,
+      "features": {
+        "mean radius": 20.94,
+        "mean texture": 23.56,
+        "mean perimeter": 138.9,
+        "mean area": 1364.0,
+        "mean smoothness": 0.1007,
+        "mean compactness": 0.1606,
+        "mean concavity": 0.2712,
+        "mean concave points": 0.131,
+        "mean symmetry": 0.2205,
+        "mean fractal dimension": 0.05898,
+        "radius error": 1.004,
+        "texture error": 0.8208,
+        "perimeter error": 6.372,
+        "area error": 137.9,
+        "smoothness error": 0.005283,
+        "compactness error": 0.03908,
+        "concavity error": 0.09518,
+        "concave points error": 0.01864,
+        "symmetry error": 0.02401,
+        "fractal dimension error": 0.005002,
+        "worst radius": 25.58,
+        "worst texture": 27.0,
+        "worst perimeter": 165.3,
+        "worst area": 2010.0,
+        "worst smoothness": 0.1211,
+        "worst compactness": 0.3172,
+        "worst concavity": 0.6991,
+        "worst concave points": 0.2105,
+        "worst symmetry": 0.3126,
+        "worst fractal dimension": 0.07849
+      }
+    },
+    {
+      "id": "WDBC-PT-318",
+      "title": "Case 3: Atypical Ductal Hyperplasia (Borderline)",
+      "description": "Ambiguous nuclear features borderline between severe hyperplasia and carcinoma in situ; demonstrates ensemble utility in uncertain cases.",
+      "true_diagnosis": "Malignant",
+      "true_label": 1,
+      "features": {
+        "mean radius": 13.48,
+        "mean texture": 20.82,
+        "mean perimeter": 88.4,
+        "mean area": 559.2,
+        "mean smoothness": 0.1016,
+        "mean compactness": 0.1255,
+        "mean concavity": 0.1063,
+        "mean concave points": 0.05439,
+        "mean symmetry": 0.172,
+        "mean fractal dimension": 0.06419,
+        "radius error": 0.213,
+        "texture error": 0.5914,
+        "perimeter error": 1.545,
+        "area error": 18.52,
+        "smoothness error": 0.005367,
+        "compactness error": 0.02239,
+        "concavity error": 0.03049,
+        "concave points error": 0.01262,
+        "symmetry error": 0.01377,
+        "fractal dimension error": 0.003187,
+        "worst radius": 15.53,
+        "worst texture": 26.02,
+        "worst perimeter": 107.3,
+        "worst area": 740.4,
+        "worst smoothness": 0.161,
+        "worst compactness": 0.4225,
+        "worst concavity": 0.503,
+        "worst concave points": 0.2258,
+        "worst symmetry": 0.2807,
+        "worst fractal dimension": 0.1071
+      }
+    }
+  ],
+  "scaler": {
+    "mean": [
+      14.166076923076936,
+      19.417692307692302,
+      92.21586813186822,
+      659.5782417582416,
+      0.09599294505494503,
+      0.1038348571428572,
+      0.08918428285714293,
+      0.04901459780219776,
+      0.18149714285714283,
+      0.0627148131868132,
+      0.4111872527472527,
+      1.2178819780219772,
+      2.9115687912087926,
+      41.27910329670334,
+      0.006895252747252745,
+      0.02532343296703297,
+      0.03201755076923077,
+      0.011690617582417585,
+      0.020426698901098918,
+      0.003766038021978021,
+      16.351514285714288,
+      25.90487912087913,
+      107.86048351648357,
+      890.5692307692316,
+      0.1320830329670329,
+      0.25552947252747266,
+      0.27516636703296693,
+      0.1154907054945055,
+      0.2913637362637367,
+      0.08412369230769234
+    ],
+    "scale": [
+      3.5751458429661915,
+      4.285935362007163,
+      24.689941486766898,
+      360.0224032546589,
+      0.014293957445666325,
+      0.05385095918959041,
+      0.0816081745789685,
+      0.03964233748792278,
+      0.027615852522021714,
+      0.006962934577614085,
+      0.2898637344353451,
+      0.5517048705229316,
+      2.1207845642782672,
+      48.33097570059748,
+      0.002851470755239647,
+      0.017604664703992863,
+      0.03169439851379008,
+      0.006282350723940197,
+      0.008301452158911845,
+      0.0026291028502456325,
+      4.895648476314662,
+      6.072847254508962,
+      34.13844252141841,
+      581.7058880535003,
+      0.023455373508121904,
+      0.15822586358561633,
+      0.21183314368274303,
+      0.06677035672401137,
+      0.06297407475727484,
+      0.01814867589980917
+    ]
+  }
+}

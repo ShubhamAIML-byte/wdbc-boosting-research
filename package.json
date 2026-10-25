@@ -1,0 +1,24 @@
+{
+  "name": "boosting-wdbc",
+  "version": "1.0.0",
+  "description": "Reliability-Aware Boosting Ensemble for Wisconsin Diagnostic Breast Cancer (WDBC) with FGSM Adversarial Robustness and SHAP Stability",
+  "main": "index.html",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'Static web application ready for Vercel deployment'"
+  },
+  "keywords": [
+    "breast-cancer",
+    "wdbc",
+    "xgboost",
+    "adaboost",
+    "catboost",
+    "machine-learning",
+    "adversarial-robustness",
+    "shap",
+    "vercel"
+  ],
+  "author": "Antigravity AI",
+  "license": "MIT"
+}
